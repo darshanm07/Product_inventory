@@ -1,0 +1,98 @@
+error: Jun-18-2025 03:36:18: TypeError: Cannot destructure property 'search' of 'body' as it is undefined.
+    at Object.getAllProduct (D:\Darshan 2025\Product-Inventory-System\backend\api\services\product.service.js:36:13)
+    at D:\Darshan 2025\Product-Inventory-System\backend\api\controllers\client\product.controller.js:34:40
+    at D:\Darshan 2025\Product-Inventory-System\backend\api\helpers\utils\catchAsync.js:7:21
+    at Layer.handleRequest (D:\Darshan 2025\Product-Inventory-System\backend\node_modules\router\lib\layer.js:152:17)
+    at next (D:\Darshan 2025\Product-Inventory-System\backend\node_modules\router\lib\route.js:157:13)
+    at isAuthenticate (D:\Darshan 2025\Product-Inventory-System\backend\api\policies\authMiddleware.js:32:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+error: Jun-18-2025 03:36:18: undefined
+error: Jun-18-2025 03:39:10: undefined
+error: Jun-18-2025 03:39:19: ValidationError: "quantity" must be a string
+error: Jun-18-2025 03:40:23: ValidationError: "categories" is not allowed
+error: Jun-18-2025 03:40:39: ValidationError: "categories" is not allowed
+error: Jun-18-2025 03:40:44: ValidationError: "categories" is not allowed
+error: Jun-18-2025 03:41:30: ValidationError: Product validation failed: categories: Cast to ObjectId failed for value "Electronics" (type string) at path "categories" because of "BSONError"
+    at Document.invalidate (D:\Darshan 2025\Product-Inventory-System\backend\node_modules\mongoose\lib\document.js:3352:32)
+    at model.$set (D:\Darshan 2025\Product-Inventory-System\backend\node_modules\mongoose\lib\document.js:1480:12)
+    at model.$set (D:\Darshan 2025\Product-Inventory-System\backend\node_modules\mongoose\lib\document.js:1132:16)
+    at model.Document (D:\Darshan 2025\Product-Inventory-System\backend\node_modules\mongoose\lib\document.js:178:12)
+    at model.Model (D:\Darshan 2025\Product-Inventory-System\backend\node_modules\mongoose\lib\model.js:127:12)
+    at new model (D:\Darshan 2025\Product-Inventory-System\backend\node_modules\mongoose\lib\model.js:4836:15)
+    at Object.createProduct (D:\Darshan 2025\Product-Inventory-System\backend\api\services\product.service.js:5:21)
+    at D:\Darshan 2025\Product-Inventory-System\backend\api\controllers\client\product.controller.js:5:40
+    at D:\Darshan 2025\Product-Inventory-System\backend\api\helpers\utils\catchAsync.js:7:21
+    at Layer.handleRequest (D:\Darshan 2025\Product-Inventory-System\backend\node_modules\router\lib\layer.js:152:17)
+error: Jun-18-2025 03:41:30: undefined
+error: Jun-18-2025 03:41:47: MongoServerError: E11000 duplicate key error collection: test.products index: name_1 dup key: { name: "T.v" }
+    at InsertOneOperation.execute (D:\Darshan 2025\Product-Inventory-System\backend\node_modules\mongodb\lib\operations\insert.js:51:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async tryOperation (D:\Darshan 2025\Product-Inventory-System\backend\node_modules\mongodb\lib\operations\execute_operation.js:207:20)
+    at async executeOperation (D:\Darshan 2025\Product-Inventory-System\backend\node_modules\mongodb\lib\operations\execute_operation.js:75:16)
+    at async Collection.insertOne (D:\Darshan 2025\Product-Inventory-System\backend\node_modules\mongodb\lib\collection.js:157:16)
+error: Jun-18-2025 03:41:47: undefined
+error: Jun-18-2025 03:44:17: MongoServerError: E11000 duplicate key error collection: test.products index: name_1 dup key: { name: "T.v" }
+    at InsertOneOperation.execute (D:\Darshan 2025\Product-Inventory-System\backend\node_modules\mongodb\lib\operations\insert.js:51:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async tryOperation (D:\Darshan 2025\Product-Inventory-System\backend\node_modules\mongodb\lib\operations\execute_operation.js:207:20)
+    at async executeOperation (D:\Darshan 2025\Product-Inventory-System\backend\node_modules\mongodb\lib\operations\execute_operation.js:75:16)
+    at async Collection.insertOne (D:\Darshan 2025\Product-Inventory-System\backend\node_modules\mongodb\lib\collection.js:157:16)
+error: Jun-18-2025 03:44:17: undefined
+error: Jun-18-2025 03:47:12: undefined
+error: Jun-18-2025 08:16:01: undefined
+error: Jun-18-2025 08:19:32: undefined
+error: Jun-18-2025 08:22:43: undefined
+error: Jun-18-2025 08:24:00: MongooseError: Operation `users.findOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (D:\Darshan 2025\Product-Inventory-System\backend\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:187:23)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7)
+error: Jun-18-2025 08:24:00: undefined
+error: Jun-18-2025 08:24:06: undefined
+error: Jun-18-2025 08:24:45: undefined
+error: Jun-18-2025 08:28:54: undefined
+error: Jun-18-2025 09:30:03: undefined
+error: Jun-18-2025 09:41:52: TypeError: Cannot destructure property 'name' of 'body' as it is undefined.
+    at Object.updateProduct (D:\Darshan 2025\Product-Inventory-System\backend\api\services\product.service.js:91:13)
+    at D:\Darshan 2025\Product-Inventory-System\backend\api\controllers\client\product.controller.js:46:40
+    at D:\Darshan 2025\Product-Inventory-System\backend\api\helpers\utils\catchAsync.js:7:21
+    at Layer.handleRequest (D:\Darshan 2025\Product-Inventory-System\backend\node_modules\router\lib\layer.js:152:17)
+    at next (D:\Darshan 2025\Product-Inventory-System\backend\node_modules\router\lib\route.js:157:13)
+    at isAuthenticate (D:\Darshan 2025\Product-Inventory-System\backend\api\policies\authMiddleware.js:32:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+error: Jun-18-2025 09:41:52: undefined
+error: Jun-18-2025 09:44:29: CastError: Cast to ObjectId failed for value "68523bc49e58b2d57cc15cfcs" (type string) at path "_id" for model "Product"
+    at SchemaObjectId.cast (D:\Darshan 2025\Product-Inventory-System\backend\node_modules\mongoose\lib\schema\objectId.js:251:11)
+    at SchemaType.applySetters (D:\Darshan 2025\Product-Inventory-System\backend\node_modules\mongoose\lib\schemaType.js:1255:12)
+    at SchemaType.castForQuery (D:\Darshan 2025\Product-Inventory-System\backend\node_modules\mongoose\lib\schemaType.js:1673:17)
+    at cast (D:\Darshan 2025\Product-Inventory-System\backend\node_modules\mongoose\lib\cast.js:390:32)
+    at Query.cast (D:\Darshan 2025\Product-Inventory-System\backend\node_modules\mongoose\lib\query.js:5055:12)
+    at Query._castConditions (D:\Darshan 2025\Product-Inventory-System\backend\node_modules\mongoose\lib\query.js:2351:10)
+    at model.Query._findOne (D:\Darshan 2025\Product-Inventory-System\backend\node_modules\mongoose\lib\query.js:2674:8)
+    at model.Query.exec (D:\Darshan 2025\Product-Inventory-System\backend\node_modules\mongoose\lib\query.js:4604:80)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Object.getProductById (D:\Darshan 2025\Product-Inventory-System\backend\api\services\product.service.js:32:21)
+error: Jun-18-2025 09:44:29: undefined
+error: Jun-18-2025 09:46:00: CastError: Cast to ObjectId failed for value "68523bc49e58b2d57cc1cfc" (type string) at path "_id" for model "Product"
+    at SchemaObjectId.cast (D:\Darshan 2025\Product-Inventory-System\backend\node_modules\mongoose\lib\schema\objectId.js:251:11)
+    at SchemaType.applySetters (D:\Darshan 2025\Product-Inventory-System\backend\node_modules\mongoose\lib\schemaType.js:1255:12)
+    at SchemaType.castForQuery (D:\Darshan 2025\Product-Inventory-System\backend\node_modules\mongoose\lib\schemaType.js:1673:17)
+    at cast (D:\Darshan 2025\Product-Inventory-System\backend\node_modules\mongoose\lib\cast.js:390:32)
+    at Query.cast (D:\Darshan 2025\Product-Inventory-System\backend\node_modules\mongoose\lib\query.js:5055:12)
+    at Query._castConditions (D:\Darshan 2025\Product-Inventory-System\backend\node_modules\mongoose\lib\query.js:2351:10)
+    at model.Query._findOne (D:\Darshan 2025\Product-Inventory-System\backend\node_modules\mongoose\lib\query.js:2674:8)
+    at model.Query.exec (D:\Darshan 2025\Product-Inventory-System\backend\node_modules\mongoose\lib\query.js:4604:80)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Object.getProductById (D:\Darshan 2025\Product-Inventory-System\backend\api\services\product.service.js:32:21)
+error: Jun-18-2025 09:46:00: undefined
+error: Jun-18-2025 09:47:34: CastError: Cast to ObjectId failed for value "68523bc49e58b2d57cc1cfc" (type string) at path "_id" for model "Product"
+    at SchemaObjectId.cast (D:\Darshan 2025\Product-Inventory-System\backend\node_modules\mongoose\lib\schema\objectId.js:251:11)
+    at SchemaType.applySetters (D:\Darshan 2025\Product-Inventory-System\backend\node_modules\mongoose\lib\schemaType.js:1255:12)
+    at SchemaType.castForQuery (D:\Darshan 2025\Product-Inventory-System\backend\node_modules\mongoose\lib\schemaType.js:1673:17)
+    at cast (D:\Darshan 2025\Product-Inventory-System\backend\node_modules\mongoose\lib\cast.js:390:32)
+    at Query.cast (D:\Darshan 2025\Product-Inventory-System\backend\node_modules\mongoose\lib\query.js:5055:12)
+    at Query._castConditions (D:\Darshan 2025\Product-Inventory-System\backend\node_modules\mongoose\lib\query.js:2351:10)
+    at model.Query._findOneAndDelete (D:\Darshan 2025\Product-Inventory-System\backend\node_modules\mongoose\lib\query.js:3593:8)
+    at model.Query.exec (D:\Darshan 2025\Product-Inventory-System\backend\node_modules\mongoose\lib\query.js:4604:80)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Object.deleteProduct (D:\Darshan 2025\Product-Inventory-System\backend\api\services\product.service.js:127:21)
+error: Jun-18-2025 09:47:34: undefined

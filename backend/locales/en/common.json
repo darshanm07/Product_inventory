@@ -1,0 +1,37 @@
+{
+    "response_message": {
+        "badRequest": "The request could not be processed, please complete it again.",
+        "isDuplicate": "Duplicate data found!",
+        "recordNotFound": "Data with certain criteria can’t be determined.",
+        "insufficientParameters": "Insufficient parameters.",
+        "mongoError": "There is an error in MongoDB!",
+        "inValidParam": "Invalid values in parameters.",
+        "unAuthorizedRequest": "Data cannot be deleted due to server error!",
+        "failedSoftDelete": "Data can not be soft deleted due to internal server error!",
+        "server_error": "The server has encountered an error. Refresh page back!",
+        "unAuthenticated": "UNAUTHENTICATED",
+        "renew_token": "New tokens have been generated.",
+        "saveContactUsDetails": "Thanks for contacting us. We will reach you soon."
+    },
+    "commonResponse": {
+        "get": "Data has been fetched successfully."
+    },
+    "module": {
+        "add": "{module} has been added successfully.",
+        "alreadyExists": "{module} already exists.",
+        "get": "{module} has been obtained successfully.",
+        "update": "{module} has been updated successfully.",
+        "delete": "{module} has been deleted successfully.",
+        "list": "All {module} have been obtained successfully.",
+        "activate": "{module} activated.",
+        "deactivate": "{module} deactivated.",
+        "create": "{module} has been created successfully.",
+        "notFound": "{module} not found!",
+        "notAllowed": "You are unable to access this platform {reason}.",
+        "cannotGive": "You are restricted to give a review as {reason}.",
+        "alreadyGiven": "You already submitted your {module}.",
+        "cannotOpenResume": "Sorry, Please complete your {module}% profile to avail this resume.",
+        "download": "{module} downloaded successfully.",
+        "downloadAndSave": "{module} downloaded and saved to your profile."
+    }
+}
